@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTeq.TestWork.LocalFilesService", "GameTeq.TestWork.LocalFilesService\GameTeq.TestWork.LocalFilesService.csproj", "{156F64B3-0D40-41A7-A76B-3BA715D3714D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTeq.TestWork.WebInputFileService", "GameTeq.TestWork.WebInputFileService\GameTeq.TestWork.WebInputFileService.csproj", "{5ADB025D-0696-419B-8D12-4737E9F7D444}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{938197F0-9A06-4EA9-B20A-E2872151F2E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalFilesService", "LocalFilesService", "{4EA1161F-5E85-47FC-83AD-3439B589709B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTeq.TestWork.LocalFilesService.BI", "..\GameTeq.TestWork.LocalFilesService.BI\GameTeq.TestWork.LocalFilesService.BI.csproj", "{F6FEA668-0FF5-4FC7-B20D-E77638FFF0E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{3070150F-9013-48F4-899C-D0B5D5106301}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTeq.TestWork.General.FileService", "..\GameTeq.TestWork.General.FileService\GameTeq.TestWork.General.FileService.csproj", "{3B9A37A5-2A64-4290-993A-9982F14DF1DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTrq.TestWork.General.Redis", "..\GameTrq.TestWork.General.Redis\GameTrq.TestWork.General.Redis.csproj", "{40314F44-07F6-45DE-BC72-85ACD1B6E40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTeq.TestWork.OutputLocalFilesService", "..\GameTeq.TestWork.OutputLocalFilesService\GameTeq.TestWork.OutputLocalFilesService.csproj", "{77ADC0F9-0E0B-4961-9B10-21C78721D563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebInputFileService", "WebInputFileService", "{BA2AFB90-E7AD-4AB8-96DE-0FB46D634B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTeq.TestWork.WebInputFileService.BI", "..\GameTeq.TestWork.WebInputFileService.BI\GameTeq.TestWork.WebInputFileService.BI.csproj", "{7958552A-33FC-4A9B-8894-3ADCACF07A76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156F64B3-0D40-41A7-A76B-3BA715D3714D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156F64B3-0D40-41A7-A76B-3BA715D3714D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156F64B3-0D40-41A7-A76B-3BA715D3714D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156F64B3-0D40-41A7-A76B-3BA715D3714D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADB025D-0696-419B-8D12-4737E9F7D444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADB025D-0696-419B-8D12-4737E9F7D444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADB025D-0696-419B-8D12-4737E9F7D444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADB025D-0696-419B-8D12-4737E9F7D444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938197F0-9A06-4EA9-B20A-E2872151F2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938197F0-9A06-4EA9-B20A-E2872151F2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938197F0-9A06-4EA9-B20A-E2872151F2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938197F0-9A06-4EA9-B20A-E2872151F2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FEA668-0FF5-4FC7-B20D-E77638FFF0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FEA668-0FF5-4FC7-B20D-E77638FFF0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FEA668-0FF5-4FC7-B20D-E77638FFF0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FEA668-0FF5-4FC7-B20D-E77638FFF0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9A37A5-2A64-4290-993A-9982F14DF1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9A37A5-2A64-4290-993A-9982F14DF1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9A37A5-2A64-4290-993A-9982F14DF1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9A37A5-2A64-4290-993A-9982F14DF1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40314F44-07F6-45DE-BC72-85ACD1B6E40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40314F44-07F6-45DE-BC72-85ACD1B6E40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40314F44-07F6-45DE-BC72-85ACD1B6E40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40314F44-07F6-45DE-BC72-85ACD1B6E40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ADC0F9-0E0B-4961-9B10-21C78721D563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ADC0F9-0E0B-4961-9B10-21C78721D563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ADC0F9-0E0B-4961-9B10-21C78721D563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ADC0F9-0E0B-4961-9B10-21C78721D563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7958552A-33FC-4A9B-8894-3ADCACF07A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7958552A-33FC-4A9B-8894-3ADCACF07A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7958552A-33FC-4A9B-8894-3ADCACF07A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7958552A-33FC-4A9B-8894-3ADCACF07A76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{156F64B3-0D40-41A7-A76B-3BA715D3714D} = {4EA1161F-5E85-47FC-83AD-3439B589709B}
+		{5ADB025D-0696-419B-8D12-4737E9F7D444} = {BA2AFB90-E7AD-4AB8-96DE-0FB46D634B0D}
+		{F6FEA668-0FF5-4FC7-B20D-E77638FFF0E3} = {4EA1161F-5E85-47FC-83AD-3439B589709B}
+		{3B9A37A5-2A64-4290-993A-9982F14DF1DA} = {3070150F-9013-48F4-899C-D0B5D5106301}
+		{40314F44-07F6-45DE-BC72-85ACD1B6E40D} = {3070150F-9013-48F4-899C-D0B5D5106301}
+		{77ADC0F9-0E0B-4961-9B10-21C78721D563} = {4EA1161F-5E85-47FC-83AD-3439B589709B}
+		{7958552A-33FC-4A9B-8894-3ADCACF07A76} = {BA2AFB90-E7AD-4AB8-96DE-0FB46D634B0D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F1A41A5-D6BD-4E3F-956B-CF821ED8895D}
+	EndGlobalSection
+EndGlobal

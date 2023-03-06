@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  gameteq.testwork.webinputfileservice:
+    image: ${DOCKER_REGISTRY-}gameteqtestworkwebinputfileservice
+    build:
+      context: .
+      dockerfile: GameTeq.TestWork.WebInputFileService/Dockerfile
+
+  gameteq.testwork.localfilesservice:
+    image: ${DOCKER_REGISTRY-}gameteqtestworklocalfilesservice
+    build:
+      context: .
+      dockerfile: GameTeq.TestWork.LocalFilesService/Dockerfile

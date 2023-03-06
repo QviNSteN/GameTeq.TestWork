@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GameTeq.TestWork.LocalFilesService": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

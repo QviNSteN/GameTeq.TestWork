@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "None",
+      "composeLaunchServiceName": "gameteq.testwork.localfilesservice",
+      "serviceActions": {
+        "gameteq.testwork.localfilesservice": "StartDebugging",
+        "gameteq.testwork.webinputfileservice": "StartDebugging",
+        "gameteq.testwork.weboutputfilesservice": "StartDebugging"
+      }
+    }
+  }
+}

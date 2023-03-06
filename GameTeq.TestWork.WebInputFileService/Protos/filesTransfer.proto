@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "GameTeq.TestWork.WebInputFileService";
+
+package filestransfer;
+
+service FilesTransfer {
+  rpc ReceiveFiles (ReceiveFilesRequest) returns (ReceiveFilesReply);
+}
+
+message ReceiveFilesRequest {
+  repeated File files = 1;
+}
+
+message File {
+	string fileName = 1;
+	string json = 2;
+}
+
+message ReceiveFilesReply {
+  repeated string fileNames = 1;
+}
