@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GameTeq.TestWork.OutputLocalFilesService";
+
+package getfiles;
+
+service GetFiles {
+  rpc Get (FilterRequest) returns (FilesReply);
+}
+
+message FilterRequest {
+	string type = 1;
+}
+
+message FilesReply {
+	 repeated string content = 1;
+}

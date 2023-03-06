@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GameTeq.TestWork.LocalFilesService";
+
+package filestransfer;
+
+service FilesTransfer {
+  rpc ReceiveFiles (ReceiveFilesRequest) returns (ReceiveFilesReply);
+}
+
+message ReceiveFilesRequest {
+  repeated string files = 1;
+}
+
+message ReceiveFilesReply {
+  repeated string fileNames = 1;
+}

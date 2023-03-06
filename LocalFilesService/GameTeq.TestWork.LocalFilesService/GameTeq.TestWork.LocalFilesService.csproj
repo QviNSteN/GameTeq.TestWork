@@ -26,9 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\GameTeq.TestWork.General.FileService\GameTeq.TestWork.General.FileService.csproj" />
-    <ProjectReference Include="..\..\GameTeq.TestWork.LocalFilesService.BI\GameTeq.TestWork.LocalFilesService.BI.csproj" />
-    <ProjectReference Include="..\..\GameTrq.TestWork.General.Redis\GameTrq.TestWork.General.Redis.csproj" />
+    <ProjectReference Include="..\..\Libraries\GameTeq.TestWork.General.FileService\GameTeq.TestWork.General.FileService.csproj" />
+    <ProjectReference Include="..\GameTeq.TestWork.LocalFilesService.BI\GameTeq.TestWork.LocalFilesService.BI.csproj" />
+    <ProjectReference Include="..\..\Libraries\GameTrq.TestWork.General.Redis\GameTrq.TestWork.General.Redis.csproj" />
   </ItemGroup>
 
   <ItemGroup>

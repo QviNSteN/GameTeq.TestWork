@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "GameTeq.TestWork.OutputLocalFilesService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5147;https://localhost:7218",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

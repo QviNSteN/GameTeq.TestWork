@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\GameTeq.TestWork.General.FileService\GameTeq.TestWork.General.FileService.csproj" />
-    <ProjectReference Include="..\..\GameTeq.TestWork.WebInputFileService.BI\GameTeq.TestWork.WebInputFileService.BI.csproj" />
+    <ProjectReference Include="..\..\LocalFilesService\GameTeq.TestWork.LocalFilesService\GameTeq.TestWork.LocalFilesService.csproj" />
+    <ProjectReference Include="..\GameTeq.TestWork.WebInputFileService.BI\GameTeq.TestWork.WebInputFileService.BI.csproj" />
   </ItemGroup>
 
 </Project>
