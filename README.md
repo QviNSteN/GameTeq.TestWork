@@ -18,3 +18,5 @@
 Liberties - бибиотеки классов. Работа с файлами и работа с Redis.
 LocalFilesService - всё что относится к работа с локальными файлами.
 WebInputFileService - работа на приём файлов.
+
+Воркеры лежат в GameTeq.TestWork.LocalFilesService.BI/Workers
